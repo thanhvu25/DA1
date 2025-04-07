@@ -16,7 +16,7 @@ namespace DA1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new frmHDN());
         }
     }
 }

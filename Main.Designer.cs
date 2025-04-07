@@ -59,6 +59,7 @@
             this.button16 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btLogout = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -74,6 +75,7 @@
             this.panel13.SuspendLayout();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -88,6 +90,8 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Moccasin;
             this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.panel14);
@@ -95,9 +99,9 @@
             this.panel1.Controls.Add(this.panel8);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(1, 87);
+            this.panel1.Location = new System.Drawing.Point(1, 50);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1474, 53);
+            this.panel1.Size = new System.Drawing.Size(1477, 53);
             this.panel1.TabIndex = 3;
             // 
             // panel11
@@ -110,9 +114,9 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.Moccasin;
+            this.button11.BackColor = System.Drawing.Color.Wheat;
             this.button11.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(-8, -7);
+            this.button11.Location = new System.Drawing.Point(-8, -12);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(247, 82);
             this.button11.TabIndex = 5;
@@ -131,7 +135,7 @@
             // 
             this.button14.BackColor = System.Drawing.Color.Moccasin;
             this.button14.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(-13, -9);
+            this.button14.Location = new System.Drawing.Point(-13, -11);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(259, 82);
             this.button14.TabIndex = 5;
@@ -150,7 +154,7 @@
             // 
             this.button10.BackColor = System.Drawing.Color.Moccasin;
             this.button10.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(-22, -8);
+            this.button10.Location = new System.Drawing.Point(-22, -11);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(273, 82);
             this.button10.TabIndex = 5;
@@ -169,7 +173,7 @@
             // 
             this.button8.BackColor = System.Drawing.Color.Moccasin;
             this.button8.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(-24, -8);
+            this.button8.Location = new System.Drawing.Point(-24, -12);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(276, 82);
             this.button8.TabIndex = 5;
@@ -188,7 +192,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Moccasin;
             this.button3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(-13, -7);
+            this.button3.Location = new System.Drawing.Point(-13, -10);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(267, 82);
             this.button3.TabIndex = 5;
@@ -207,7 +211,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Moccasin;
             this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(-13, -9);
+            this.button2.Location = new System.Drawing.Point(-13, -12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(256, 82);
             this.button2.TabIndex = 5;
@@ -217,18 +221,18 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.button4);
-            this.panel4.Location = new System.Drawing.Point(80, 563);
+            this.panel4.Location = new System.Drawing.Point(12, 259);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(228, 80);
+            this.panel4.Size = new System.Drawing.Size(185, 55);
             this.panel4.TabIndex = 5;
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Moccasin;
-            this.button4.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(-13, -21);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(255, 125);
+            this.button4.Size = new System.Drawing.Size(219, 97);
             this.button4.TabIndex = 5;
             this.button4.Text = "Thương hiệu";
             this.button4.UseVisualStyleBackColor = false;
@@ -236,18 +240,18 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.button6);
-            this.panel6.Location = new System.Drawing.Point(727, 744);
+            this.panel6.Location = new System.Drawing.Point(139, 503);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(289, 80);
+            this.panel6.Size = new System.Drawing.Size(187, 62);
             this.panel6.TabIndex = 5;
             // 
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Moccasin;
-            this.button6.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(-20, -8);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(328, 97);
+            this.button6.Size = new System.Drawing.Size(227, 82);
             this.button6.TabIndex = 5;
             this.button6.Text = "Chi tiết hóa đơn bán";
             this.button6.UseVisualStyleBackColor = false;
@@ -255,18 +259,18 @@
             // panel7
             // 
             this.panel7.Controls.Add(this.button7);
-            this.panel7.Location = new System.Drawing.Point(765, 375);
+            this.panel7.Location = new System.Drawing.Point(139, 419);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(228, 80);
+            this.panel7.Size = new System.Drawing.Size(187, 54);
             this.panel7.TabIndex = 5;
             // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.Moccasin;
-            this.button7.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(-14, -14);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(266, 108);
+            this.button7.Size = new System.Drawing.Size(212, 83);
             this.button7.TabIndex = 5;
             this.button7.Text = "Hóa đơn bán";
             this.button7.UseVisualStyleBackColor = false;
@@ -274,18 +278,18 @@
             // panel9
             // 
             this.panel9.Controls.Add(this.button9);
-            this.panel9.Location = new System.Drawing.Point(80, 706);
+            this.panel9.Location = new System.Drawing.Point(1586, 274);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(228, 80);
+            this.panel9.Size = new System.Drawing.Size(186, 56);
             this.panel9.TabIndex = 5;
             // 
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.Moccasin;
-            this.button9.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(-12, -18);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(255, 117);
+            this.button9.Size = new System.Drawing.Size(209, 94);
             this.button9.TabIndex = 5;
             this.button9.Text = "Khuyến mãi";
             this.button9.UseVisualStyleBackColor = false;
@@ -293,18 +297,18 @@
             // panel12
             // 
             this.panel12.Controls.Add(this.button12);
-            this.panel12.Location = new System.Drawing.Point(125, 445);
+            this.panel12.Location = new System.Drawing.Point(75, 62);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(228, 80);
+            this.panel12.Size = new System.Drawing.Size(186, 54);
             this.panel12.TabIndex = 5;
             // 
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.Moccasin;
-            this.button12.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(-24, -21);
+            this.button12.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(-11, -10);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(281, 122);
+            this.button12.Size = new System.Drawing.Size(208, 79);
             this.button12.TabIndex = 5;
             this.button12.Text = "Kho";
             this.button12.UseVisualStyleBackColor = false;
@@ -312,18 +316,18 @@
             // panel13
             // 
             this.panel13.Controls.Add(this.button13);
-            this.panel13.Location = new System.Drawing.Point(779, 552);
+            this.panel13.Location = new System.Drawing.Point(141, 343);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(228, 80);
+            this.panel13.Size = new System.Drawing.Size(185, 59);
             this.panel13.TabIndex = 5;
             // 
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.Moccasin;
-            this.button13.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(-14, -4);
+            this.button13.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(-14, -7);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(270, 91);
+            this.button13.Size = new System.Drawing.Size(210, 77);
             this.button13.TabIndex = 5;
             this.button13.Text = "Hóa đơn nhập";
             this.button13.UseVisualStyleBackColor = false;
@@ -331,18 +335,18 @@
             // panel16
             // 
             this.panel16.Controls.Add(this.button16);
-            this.panel16.Location = new System.Drawing.Point(1243, 833);
+            this.panel16.Location = new System.Drawing.Point(139, 583);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(289, 80);
+            this.panel16.Size = new System.Drawing.Size(189, 61);
             this.panel16.TabIndex = 5;
             // 
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.Moccasin;
-            this.button16.Font = new System.Drawing.Font("Tahoma", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(-16, -12);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(320, 107);
+            this.button16.Size = new System.Drawing.Size(216, 86);
             this.button16.TabIndex = 5;
             this.button16.Text = "Chi tiết hóa đơn nhập";
             this.button16.UseVisualStyleBackColor = false;
@@ -359,28 +363,41 @@
             // 
             // btLogout
             // 
-            this.btLogout.Location = new System.Drawing.Point(1452, -1);
+            this.btLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btLogout.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btLogout.Location = new System.Drawing.Point(1316, -1);
             this.btLogout.Name = "btLogout";
-            this.btLogout.Size = new System.Drawing.Size(162, 66);
+            this.btLogout.Size = new System.Drawing.Size(162, 52);
             this.btLogout.TabIndex = 7;
             this.btLogout.Text = "Đăng xuất";
             this.btLogout.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel5.Controls.Add(this.panel12);
+            this.panel5.Controls.Add(this.panel9);
+            this.panel5.Controls.Add(this.panel13);
+            this.panel5.Controls.Add(this.panel6);
+            this.panel5.Controls.Add(this.panel16);
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Location = new System.Drawing.Point(-329, 109);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1735, 735);
+            this.panel5.TabIndex = 8;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(1924, 777);
+            this.ClientSize = new System.Drawing.Size(1478, 847);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.btLogout);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel13);
-            this.Controls.Add(this.panel12);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel16);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -391,6 +408,7 @@
             this.Name = "Main";
             this.RightToLeftLayout = true;
             this.Text = "Quản lý cửa hàng bán giày";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
             this.panel1.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
@@ -407,6 +425,7 @@
             this.panel13.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -442,6 +461,7 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btLogout;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 

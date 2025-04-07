@@ -58,7 +58,7 @@
             this.llbForget.Location = new System.Drawing.Point(437, 207);
             this.llbForget.Name = "llbForget";
             this.llbForget.Size = new System.Drawing.Size(98, 14);
-            this.llbForget.TabIndex = 1;
+            this.llbForget.TabIndex = 3;
             this.llbForget.TabStop = true;
             this.llbForget.Text = "Quên mật khẩu?";
             this.llbForget.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
@@ -73,7 +73,7 @@
             this.txtUser.Multiline = true;
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(314, 35);
-            this.txtUser.TabIndex = 2;
+            this.txtUser.TabIndex = 0;
             this.txtUser.Text = "\r\n";
             // 
             // label2
@@ -96,17 +96,18 @@
             this.txtPass.Multiline = true;
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(314, 35);
-            this.txtPass.TabIndex = 2;
+            this.txtPass.TabIndex = 1;
             this.txtPass.Text = "\r\n";
             // 
             // btLogin
             // 
             this.btLogin.BackColor = System.Drawing.Color.Moccasin;
+            this.btLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btLogin.Font = new System.Drawing.Font("Tahoma", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btLogin.Location = new System.Drawing.Point(340, 253);
+            this.btLogin.Location = new System.Drawing.Point(405, 253);
             this.btLogin.Name = "btLogin";
-            this.btLogin.Size = new System.Drawing.Size(130, 53);
-            this.btLogin.TabIndex = 3;
+            this.btLogin.Size = new System.Drawing.Size(130, 43);
+            this.btLogin.TabIndex = 2;
             this.btLogin.Text = "Đăng nhập";
             this.btLogin.UseVisualStyleBackColor = false;
             this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
@@ -114,11 +115,12 @@
             // btExit
             // 
             this.btExit.BackColor = System.Drawing.Color.OldLace;
+            this.btExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btExit.Font = new System.Drawing.Font("Tahoma", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btExit.Location = new System.Drawing.Point(181, 253);
+            this.btExit.Location = new System.Drawing.Point(221, 253);
             this.btExit.Name = "btExit";
-            this.btExit.Size = new System.Drawing.Size(130, 53);
-            this.btExit.TabIndex = 3;
+            this.btExit.Size = new System.Drawing.Size(126, 43);
+            this.btExit.TabIndex = 4;
             this.btExit.Text = "Thoát";
             this.btExit.UseVisualStyleBackColor = false;
             this.btExit.Click += new System.EventHandler(this.button2_Click);
