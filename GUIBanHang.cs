@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DA1
 {
-    public partial class frmHDB : Form
+    public partial class GUIBanHang : Form
     {
-        public frmHDB()
+        public GUIBanHang()
         {
             InitializeComponent();
         }

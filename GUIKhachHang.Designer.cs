@@ -1,6 +1,6 @@
 ﻿namespace DA1
 {
-    partial class frmKhachHang
+    partial class GUIKhachHang
     {
         /// <summary>
         /// Required designer variable.
@@ -30,30 +30,30 @@
         {
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFind = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnFind = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.cbGioiTinh = new System.Windows.Forms.ComboBox();
+            this.cbLevel = new System.Windows.Forms.ComboBox();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtSdt = new System.Windows.Forms.TextBox();
             this.txtMa = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtHoTen = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvKH = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -63,7 +63,7 @@
             this.panel2.SuspendLayout();
             this.panel9.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKH)).BeginInit();
             this.SuspendLayout();
             // 
             // panel5
@@ -76,74 +76,78 @@
             this.panel5.Location = new System.Drawing.Point(421, 68);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(738, 100);
+            this.panel5.Size = new System.Drawing.Size(738, 62);
             this.panel5.TabIndex = 11;
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.button1);
-            this.panel6.Location = new System.Drawing.Point(324, 46);
+            this.panel6.Controls.Add(this.btnDel);
+            this.panel6.Location = new System.Drawing.Point(324, 11);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(154, 43);
             this.panel6.TabIndex = 2;
             // 
-            // button1
+            // btnDel
             // 
-            this.button1.BackColor = System.Drawing.Color.Moccasin;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(-12, -9);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 62);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Xóa";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnDel.BackColor = System.Drawing.Color.Moccasin;
+            this.btnDel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDel.Location = new System.Drawing.Point(-12, -9);
+            this.btnDel.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(177, 62);
+            this.btnDel.TabIndex = 0;
+            this.btnDel.Text = "Xóa";
+            this.btnDel.UseVisualStyleBackColor = false;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Location = new System.Drawing.Point(164, 46);
+            this.panel3.Controls.Add(this.btnEdit);
+            this.panel3.Location = new System.Drawing.Point(164, 11);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(154, 43);
             this.panel3.TabIndex = 1;
             // 
-            // button2
+            // btnEdit
             // 
-            this.button2.BackColor = System.Drawing.Color.Moccasin;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(-12, -9);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 62);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Sửa";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnEdit.BackColor = System.Drawing.Color.Moccasin;
+            this.btnEdit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEdit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.Location = new System.Drawing.Point(-12, -9);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(177, 62);
+            this.btnEdit.TabIndex = 0;
+            this.btnEdit.Text = "Sửa";
+            this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Location = new System.Drawing.Point(4, 46);
+            this.panel4.Controls.Add(this.btnAdd);
+            this.panel4.Location = new System.Drawing.Point(4, 11);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(154, 43);
             this.panel4.TabIndex = 0;
             // 
-            // button3
+            // btnAdd
             // 
-            this.button3.BackColor = System.Drawing.Color.Moccasin;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(-12, -9);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(177, 62);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Thêm";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnAdd.BackColor = System.Drawing.Color.Moccasin;
+            this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdd.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(-12, -9);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(177, 62);
+            this.btnAdd.TabIndex = 0;
+            this.btnAdd.Text = "Thêm";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // panel1
             // 
@@ -161,7 +165,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Moccasin;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtFind);
             this.panel2.Controls.Add(this.panel9);
             this.panel2.Location = new System.Drawing.Point(0, 10);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -169,47 +173,48 @@
             this.panel2.Size = new System.Drawing.Size(399, 63);
             this.panel2.TabIndex = 0;
             // 
-            // textBox1
+            // txtFind
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(14, 20);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(271, 28);
-            this.textBox1.TabIndex = 0;
+            this.txtFind.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFind.Location = new System.Drawing.Point(14, 20);
+            this.txtFind.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.txtFind.Name = "txtFind";
+            this.txtFind.Size = new System.Drawing.Size(271, 28);
+            this.txtFind.TabIndex = 0;
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.button9);
+            this.panel9.Controls.Add(this.btnFind);
             this.panel9.Location = new System.Drawing.Point(265, 0);
             this.panel9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(154, 63);
             this.panel9.TabIndex = 6;
             // 
-            // button9
+            // btnFind
             // 
-            this.button9.BackColor = System.Drawing.Color.Moccasin;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(-12, -5);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(177, 78);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "Tìm kiếm";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnFind.BackColor = System.Drawing.Color.Moccasin;
+            this.btnFind.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFind.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFind.Location = new System.Drawing.Point(-12, -5);
+            this.btnFind.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(177, 78);
+            this.btnFind.TabIndex = 0;
+            this.btnFind.Text = "Tìm kiếm";
+            this.btnFind.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.BackColor = System.Drawing.Color.Moccasin;
+            this.groupBox1.Controls.Add(this.cbGioiTinh);
+            this.groupBox1.Controls.Add(this.cbLevel);
+            this.groupBox1.Controls.Add(this.txtDiaChi);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.txtSdt);
             this.groupBox1.Controls.Add(this.txtMa);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label4);
@@ -226,34 +231,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin khách hàng";
             // 
-            // comboBox2
+            // cbGioiTinh
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(14, 177);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(372, 29);
-            this.comboBox2.TabIndex = 1;
+            this.cbGioiTinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbGioiTinh.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbGioiTinh.FormattingEnabled = true;
+            this.cbGioiTinh.Location = new System.Drawing.Point(14, 177);
+            this.cbGioiTinh.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.cbGioiTinh.Name = "cbGioiTinh";
+            this.cbGioiTinh.Size = new System.Drawing.Size(372, 29);
+            this.cbGioiTinh.TabIndex = 1;
             // 
-            // comboBox1
+            // cbLevel
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(14, 363);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(372, 29);
-            this.comboBox1.TabIndex = 4;
+            this.cbLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLevel.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbLevel.FormattingEnabled = true;
+            this.cbLevel.Location = new System.Drawing.Point(14, 363);
+            this.cbLevel.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.cbLevel.Name = "cbLevel";
+            this.cbLevel.Size = new System.Drawing.Size(372, 29);
+            this.cbLevel.TabIndex = 4;
             // 
-            // textBox5
+            // txtDiaChi
             // 
-            this.textBox5.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(13, 239);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(372, 28);
-            this.textBox5.TabIndex = 2;
+            this.txtDiaChi.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaChi.Location = new System.Drawing.Point(13, 239);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(372, 28);
+            this.txtDiaChi.TabIndex = 2;
             // 
             // label2
             // 
@@ -277,14 +284,14 @@
             this.label3.TabIndex = 1;
             this.label3.Text = "Giới tính";
             // 
-            // textBox6
+            // txtSdt
             // 
-            this.textBox6.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(13, 302);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(372, 28);
-            this.textBox6.TabIndex = 3;
+            this.txtSdt.Font = new System.Drawing.Font("Tahoma", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSdt.Location = new System.Drawing.Point(13, 302);
+            this.txtSdt.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.txtSdt.Name = "txtSdt";
+            this.txtSdt.Size = new System.Drawing.Size(372, 28);
+            this.txtSdt.TabIndex = 3;
             // 
             // txtMa
             // 
@@ -349,18 +356,20 @@
             this.txtHoTen.Size = new System.Drawing.Size(372, 28);
             this.txtHoTen.TabIndex = 0;
             // 
-            // dataGridView1
+            // dgvKH
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dgvKH.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Moccasin;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(425, 172);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(736, 476);
-            this.dataGridView1.TabIndex = 10;
+            this.dgvKH.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKH.BackgroundColor = System.Drawing.Color.Moccasin;
+            this.dgvKH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKH.Location = new System.Drawing.Point(425, 133);
+            this.dgvKH.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.dgvKH.Name = "dgvKH";
+            this.dgvKH.Size = new System.Drawing.Size(736, 515);
+            this.dgvKH.TabIndex = 10;
+            this.dgvKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKH_CellClick);
             // 
             // label1
             // 
@@ -373,22 +382,24 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "QUẢN LÝ KHÁCH HÀNG";
             // 
-            // frmKhachHang
+            // GUIKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1170, 709);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvKH);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmKhachHang";
+            this.Name = "GUIKhachHang";
             this.Text = "frmKhachHang";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.GUIKhachHang_Load);
+            this.Click += new System.EventHandler(this.GUIKhachHang_Click);
             this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -399,7 +410,7 @@
             this.panel9.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvKH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -409,30 +420,30 @@
 
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFind;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.ComboBox cbGioiTinh;
+        private System.Windows.Forms.ComboBox cbLevel;
+        private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtSdt;
         private System.Windows.Forms.TextBox txtMa;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtHoTen;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvKH;
         private System.Windows.Forms.Label label1;
     }
 }

@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
+using DTO;
+using System.Data.SqlClient;
 
 namespace DA1
 {
-    public partial class frmKhuyenMai : Form
+    public partial class GUI_TKBC : Form
     {
-        public frmKhuyenMai()
+        public GUI_TKBC()
         {
             InitializeComponent();
         }

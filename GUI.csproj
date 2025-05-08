@@ -46,59 +46,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBanHang.cs">
+    <Compile Include="GUIBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBanHang.Designer.cs">
-      <DependentUpon>frmBanHang.cs</DependentUpon>
+    <Compile Include="GUIBanHang.Designer.cs">
+      <DependentUpon>GUIBanHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHDB.cs">
+    <Compile Include="GUISanPham.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHDB.Designer.cs">
-      <DependentUpon>frmHDB.cs</DependentUpon>
+    <Compile Include="GUISanPham.Designer.cs">
+      <DependentUpon>GUISanPham.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmHDN.cs">
+    <Compile Include="GUI_HDB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmHDN.Designer.cs">
-      <DependentUpon>frmHDN.cs</DependentUpon>
+    <Compile Include="GUI_HDB.Designer.cs">
+      <DependentUpon>GUI_HDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmKhachHang.cs">
+    <Compile Include="GUI_HDN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKhachHang.Designer.cs">
-      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    <Compile Include="GUI_HDN.Designer.cs">
+      <DependentUpon>GUI_HDN.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmKhoHang.cs">
+    <Compile Include="GUIKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKhoHang.Designer.cs">
-      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    <Compile Include="GUIKhachHang.Designer.cs">
+      <DependentUpon>GUIKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmKhuyenMai.cs">
+    <Compile Include="GUIKhoHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmKhuyenMai.Designer.cs">
-      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    <Compile Include="GUIKhoHang.Designer.cs">
+      <DependentUpon>GUIKhoHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="GUIKhuyenMai.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <Compile Include="GUIKhuyenMai.Designer.cs">
+      <DependentUpon>GUIKhuyenMai.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmNhanVien.cs">
+    <Compile Include="GUILogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNhanVien.Designer.cs">
-      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    <Compile Include="GUILogin.Designer.cs">
+      <DependentUpon>GUILogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSanPham.cs">
+    <Compile Include="GUINhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSanPham.Designer.cs">
-      <DependentUpon>frmSanPham.cs</DependentUpon>
+    <Compile Include="GUINhanVien.Designer.cs">
+      <DependentUpon>GUINhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIThuongHieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIThuongHieu.Designer.cs">
+      <DependentUpon>GUIThuongHieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_TKBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_TKBC.Designer.cs">
+      <DependentUpon>GUI_TKBC.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -108,32 +120,43 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmBanHang.resx">
-      <DependentUpon>frmBanHang.cs</DependentUpon>
+    <Compile Include="vvtDA1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vvtDA1DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUIBanHang.resx">
+      <DependentUpon>GUIBanHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHDB.resx">
-      <DependentUpon>frmHDB.cs</DependentUpon>
+    <EmbeddedResource Include="GUISanPham.resx">
+      <DependentUpon>GUISanPham.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmHDN.resx">
-      <DependentUpon>frmHDN.cs</DependentUpon>
+    <EmbeddedResource Include="GUIThuongHieu.resx">
+      <DependentUpon>GUIThuongHieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmKhachHang.resx">
-      <DependentUpon>frmKhachHang.cs</DependentUpon>
+    <EmbeddedResource Include="GUI_HDB.resx">
+      <DependentUpon>GUI_HDB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmKhoHang.resx">
-      <DependentUpon>frmKhoHang.cs</DependentUpon>
+    <EmbeddedResource Include="GUI_HDN.resx">
+      <DependentUpon>GUI_HDN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmKhuyenMai.resx">
-      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
+    <EmbeddedResource Include="GUIKhachHang.resx">
+      <DependentUpon>GUIKhachHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="GUIKhoHang.resx">
+      <DependentUpon>GUIKhoHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmNhanVien.resx">
-      <DependentUpon>frmNhanVien.cs</DependentUpon>
+    <EmbeddedResource Include="GUIKhuyenMai.resx">
+      <DependentUpon>GUIKhuyenMai.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSanPham.resx">
-      <DependentUpon>frmSanPham.cs</DependentUpon>
+    <EmbeddedResource Include="GUILogin.resx">
+      <DependentUpon>GUILogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUINhanVien.resx">
+      <DependentUpon>GUINhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI_TKBC.resx">
+      <DependentUpon>GUI_TKBC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -146,6 +169,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -156,6 +180,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="vvtDA1DataSet.xsc">
+      <DependentUpon>vvtDA1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="vvtDA1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vvtDA1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vvtDA1DataSet.xss">
+      <DependentUpon>vvtDA1DataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -169,6 +204,9 @@
       <Project>{a93f1f54-c59a-4a37-8cbc-d5cb52d3c3f6}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRANG CHỦ.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
